@@ -1,0 +1,23 @@
+{
+  "development": {
+    "storage": "retail_adapter_database",
+    "dialect": "sqlite",
+    "logging": true
+  },
+  "test": {
+    "username": "root",
+    "password": "PASSWORD",
+    "database": "rtas_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "port": 3306,
+    "logging": true
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "R-TAS_Reports_Database",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

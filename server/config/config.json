@@ -1,0 +1,106 @@
+{
+	"BASICS" : {
+		"APP_VERSION": "1.0",
+		"LOG_LEVEL": "DEBUG"
+	},
+	"BSP": {
+		"inputFilePath": "./import",
+		"processedFilePath": "C:/data/",
+		"errorFilePath": "C:/data"
+	},
+	"CATEGORY" : {
+		"COLUMNS" : {
+			"nodeCode": "",
+			"tag": "DEPT_TEXT",
+			"departmentNode": "",
+			"departmentSale": "",
+			"status": "",
+			"title_locale": "",
+			"title_value": "DEPT_TEXT",
+			"nodeId": "DEPT_ID"
+		},
+		"DEFAULT" : {
+			"nodeCode": "OCT",
+			"departmentNode": "true",
+			"departmentSale": "true",
+			"status": "ACTIVE",
+			"title_locale": "en-US"
+		}
+},
+
+
+
+"ITEMS" : {
+	"COLUMNS" : {
+		"longDescription_locale": "",
+		"longDescription_value": "longDescription",
+		"shortDescription_locale": "",
+		"shortDescription_value": "shortDescription",
+		"nodeId": "DEPT_ID",
+		"status": "",
+		"departmentId": "DEPT_ID",
+		"nonMerchandise": "",
+		"itemCode": "ARTICLE_NO"
+	},
+	"DEFAULT" : {
+		"longDescription_locale": "en-US",
+		"shortDescription_locale": "en-US",
+		"status": "ACTIVE",
+		"nonMerchandise": "false"
+	}
+},
+
+
+"ITEMATTRIBUTES" : {
+	"COLUMNS" : {
+		"longDescription_locale": "",
+		"longDescription_value": "longDescription",
+		"shortDescription_locale": "",
+		"shortDescription_value": "shortDescription",
+		"nodeId": "DEPT_ID",
+		"status": "",
+		"blockForSale": "",
+		"itemCode": "ARTICLE_NO"
+	},
+	"DEFAULT" : {
+		"longDescription_locale": "en-US",
+		"shortDescription_locale": "en-US",
+		"status": "ACTIVE",
+		"blockForSale": "false"
+	}
+},
+
+
+"ITEMPRICES" : {
+	"COLUMNS" : {
+		"price": "PRICE",
+		"currency": "currency",
+		"effectiveDate": "",
+		"endDate": "",
+		"basePrice": "basePrice",
+		"status": "",
+		"itemPriceType": "itemPriceType",
+		"tareWeightUom": "tareWeightUom",
+		"tareWeight": "tareWeight",
+		"precision": "precision",
+		"includesContainer" : "includesContainer",
+		"quantityPricedItem": "quantityPricedItem",
+		"itemCode": "ARTICLE_NO",
+		"priceCode": ""
+	},
+	"DEFAULT" : {
+		"currency": "USD",
+		"basePrice": "false",
+		"status": "ACTIVE",
+		"effectiveDate": "2020-09-01T05:54:03.000Z",
+		"endDate": "2021-09-01T05:54:03.000Z",
+		"itemPriceType": "SELF_SERVICE_CASH",
+		"tareWeightUom": "PIECE",
+		"tareWeight": "1",
+		"precision": "0",
+		"includesContainer" : "false",
+		"quantityPricedItem": "false",
+		"priceCode": "1"
+	}
+}
+}

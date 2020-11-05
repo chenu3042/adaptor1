@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<OCT2000-IMPORT siteno="59990" version="Z09.45" system="PB" context="Pending Changes site59990">
+  <DRY date="20200917141344" action="update">
+    <NLU-NO>1036610</NLU-NO>
+    <NLU-TEXT>ACTIVE O2</NLU-TEXT>
+    <NLU-TEXT-LONG>ACTIVE O2 LEMON/ORANGE 0,5L</NLU-TEXT-LONG>
+    <PRICE>100</PRICE>
+  </DRY>
+  <DRY date="20200917141344" action="update">
+    <NLU-NO>1036076</NLU-NO>
+    <NLU-TEXT>1/4 FL. VIN</NLU-TEXT>
+    <NLU-TEXT-LONG>1/4 FL. VIN</NLU-TEXT-LONG>
+    <PRICE>50</PRICE>
+  </DRY>
+  <DRY date="20200917141344" action="update">
+    <NLU-NO>1036455</NLU-NO>
+    <NLU-TEXT>AQUA D´OR</NLU-TEXT>
+    <NLU-TEXT-LONG>AQUA D´OR 0,75L 6-PAK</NLU-TEXT-LONG>
+    <PRICE>150</PRICE>
+  </DRY>
+</OCT2000-IMPORT>

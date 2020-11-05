@@ -1,0 +1,22 @@
+{
+  "appenders": {
+    "fileLog": {
+      "type": "file",
+      "filename": "./logs/node-test-bsp-api.log"
+    }
+  },
+  "categories": {
+    "file": {
+      "appenders": [
+        "fileLog"
+      ],
+      "level": "error"
+    },
+    "default": {
+      "appenders": [
+        "fileLog"
+      ],
+      "level": "trace"
+    }
+  }
+}

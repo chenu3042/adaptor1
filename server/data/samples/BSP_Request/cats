@@ -1,0 +1,5 @@
+version,nodeCode,tag,departmentNode,departmentSale,status,nodeId,parentId,lang,title
+1,0000001,clothes,0,1,1,1001,1001,en-us,clothes
+1,0000002,electronics,0,1,1,1002,1002,en-us,Electronics
+1,0000003,fancy,0,1,1,1003,1003,en-us,fancy
+1,0000004,watches,0,1,1,1004,1004,en-us,watches
